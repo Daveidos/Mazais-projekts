@@ -1,0 +1,112 @@
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+using namespace std;
+
+int main() {
+  srand(time(NULL));
+  int random = rand() % 10;
+  string answer;
+  
+  if(random == 0){
+    cout << "cik būs 2 + 2?" << endl;
+    cin >> answer;
+    if(answer == "4"){
+      cout << "pareizi!";
+    }
+    else{
+      cout << "nav pareizi!";
+    }
+  }
+  if(random == 1){
+    cout << "kad sākās otrais pasaules karš?" << endl;
+    cin >> answer;
+    if(answer == "1939"){
+      cout << "pareizi!";
+    }
+    else{
+      cout << "nav pareizi!";
+    }
+  }
+  if(random == 2){
+    cout << "kurš ir pirmais latvijas prezidents?" << endl;
+    cin >> answer;
+    if(answer == "Jānis Čakste"){
+      cout << "pareizi!";
+    }
+    else{
+      cout << "nav pareizi!";
+    }
+  }
+if(random == 3){
+    cout << "cik planētu ir Saules sistēmā?" << endl;
+    cin >> answer;
+    if(answer == "8"){
+      cout << "pareizi!";
+    }
+    else{
+      cout << "nav pareizi!";
+    }
+  }
+  if(random == 4){
+    cout << "cik planētu ir Saules sistēmā?" << endl;
+    cin >> answer;
+    if(answer == "8"){
+      cout << "pareizi!";
+    }
+    else{
+      cout << "nav pareizi!";
+    }
+  }
+  if(random == 5){
+    cout << "lielākā zvaigzne Saules sistēmā?" << endl;
+    cin >> answer;
+    if(answer == "saule"){
+      cout << "pareizi!";
+    }
+    else{
+      cout << "nav pareizi!";
+    }
+  }
+  if(random == 6){
+    cout << "cik būs 134 + 764?" << endl;
+    cin >> answer;
+    if(answer == "898"){
+      cout << "pareizi!";
+    }
+    else{
+      cout << "nav pareizi!";
+    }
+  }
+  if(random == 7){
+    cout << "ko cilvēks elpo?" << endl;
+    cin >> answer;
+    if(answer == "skābeklis"){
+      cout << "pareizi!";
+    }
+    else{
+      cout << "nav pareizi!";
+    }
+  }
+  if(random == 8){
+    cout << "gaismas ātrums?" << endl;
+    cin >> answer;
+    if(answer == "299792458"){
+      cout << "pareizi!";
+    }
+    else{
+      cout << "nav pareizi!";
+    }
+  }
+  if(random == 9){
+    cout << "skaņas ātrums?" << endl;
+    cin >> answer;
+    if(answer == "343"){
+      cout << "pareizi!";
+    }
+    else{
+      cout << "nav pareizi!";
+    }
+  }
+} 
